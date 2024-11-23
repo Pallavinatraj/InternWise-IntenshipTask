@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+         #heading{
+            margin: auto;
+            margin-bottom: 20px;
+            padding: 10px;
+         }
+         #box{
+            border:1px solid black;
+            height:500px;
+            width:350px;
+            background-color: rgb(66, 64, 64);
+            border-radius:8px;
+         }
+
+         #display{
+            border: 1px solid transparent;
+            height:18%;
+            width:90%;
+            margin: auto;
+            margin-top:8%;
+            border-radius:8px;
+            background-color: white;
+         }
+         #keyword{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows:repeat(6,60px) ;
+            border: 1px solid transparent;
+            width:90%;
+            height:70%;
+            margin: auto;
+            margin-top:2%;
+            border-radius:8px;
+            background-color: rgb(66, 64, 64);
+            color: aqua;
+         }
+
+         #keyword>div{
+            border: 1px solid transparent;
+            width:100%;
+            height:100%;
+            margin: auto;
+            margin-top:0px;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+            box-shadow: rgba(27, 26, 26, 0.515) 0px 3px 8px;
+         }
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">InternWise Calculator</h1>
+    <div id="box">
+        <div id="display"></div>
+        <div id="keyword">
+            <div id="1b">MC</div>
+            <div id="2b">MR</div>
+            <div id="3b">MS</div>
+            <div id="4b">M+</div>
+            <div id="5b">(</div>
+            <div id="6b">)</div>
+            <div id="7b">C</div>
+            <div id="8b">/</div>
+            <div id="9b">7</div>
+            <div id="10b">8</div>
+            <div id="11b">9</div>
+            <div id="12b">*</div>
+            <div id="13b">4</div>
+            <div id="14b">5</div>
+            <div id="15b">6</div>
+            <div id="16b">-</div>
+            <div id="17b">1</div>
+            <div id="18b">2</div>
+            <div id="19b">3</div>
+            <div id="20b">+</div>
+            <div id="21b">0</div>
+            <div id="22b">0</div>
+            <div id="23b">.</div>
+            <div id="24b">=</div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.querySelectorAll("#keyword").addEventListener("click",button);
+
+    myfunction button(){
+        if()
+        let x = document.querySelect("#display").innerText
+    }
+</script>
