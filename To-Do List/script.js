@@ -1,4 +1,4 @@
-document.querySelector("#green").addEventListener("click", greenButtonFunction)
+ document.querySelector("#green").addEventListener("click", greenButtonFunction)
 
 
 
