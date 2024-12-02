@@ -4,40 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interwise TO-Do List</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="container">
-        <div id="box">
-            <div>
-                <div id="box1">
-                    <h3>To Do List</h3>
-                    <button>Delete All</button>
-                </div>
-                <div id="task-box">
-                    <ul id="list">
-                        <!-- <li id="task">Task1</li>
-                        <li>Task2</li>
-                        <li>Task3</li>
-                        <li>Task4</li> -->
-                    </ul>
-                </div>
+    <h1>InternWise TaskList</h1>
+    <div class="container">
+        <div class="todo-box">
+            <div class="header">
+                <h2>To Do List</h2>
+                <button id="deleteAllButton">Delete All</button>
             </div>
-            <div id="box2">
-                <h3>Add New Task</h3>
-                <hr>
-                <input type="text" placeholder="Enter a Task">
-                <button id="Green">+</button>
+            <ul id="tasks">
+                <!-- Task list will be dynamically added here -->
+            </ul>
+            <div class="add-task">
+                <input type="text" id="taskInput" placeholder="Enter a task">
+                <button id="addTaskButton">Add Task</button>
             </div>
         </div>
-
     </div>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
-
-<script src="script.js"></script>
