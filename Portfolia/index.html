@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <p>Software Engineer</p>
+                <h1>Hi, Im <span>Pallavi</span><br>from Banglore</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ..............About........... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20240618_225123.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am proficient in JavaScript and Python, with a solid understanding of software development
+                        principles. Passionate about problem-solving, I continuously learn new technologies to stay
+                        updated in the fast-evolving tech industry. I have a strong foundation in algorithms, data
+                        structures, and coding best practices</p>
+                    <div class="title">
+                        <p class="tab-link active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab(event, 'experince')">Experience</p>
+                        <p class="tab-link" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+                    <div class="text-content active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Languages:</span><br>Javascript, Typescript and Python</li>
+                            <li><span>Frontend Tech:</span><br>HTML5, CSS3, JavaScript</li>
+                            <li><span>Frameworks:</span><br>SASS , Tailwind and React.js</li>
+                            <li><span>Database:</span><br>MySQL and MongoDB</li>
+                            <li><span>Version Control:</span><br>Git and Github</li>
+                        </ul>
+                    </div>
+                    <div class="text-content" id="experince">
+                        <ul>
+                            <li><span>Fullstack Developer Trainee</span><br>E-Cell, IIT Guwahati presents YHills
+                                (2024-Dec to Present)</li>
+                            <li><span>Web Developer Intern</span><br>InterWise (2024-Oct to Dec)</li>
+                            <li><span>Graduate Engineer Trainee</span><br>Suryojasvi Group(2023-Nov to 2024-Oct)</li>
+                        </ul>
+                    </div>
+                    <div class="text-content" id="education">
+                        <ul>
+                            <li><span>Bachelor Of Engineering (EEE)</span><br>Malnad College Of Engineering (2020 -
+                                2024)</li>
+                            <li><span>Diploma (EEE)</span><br>Smt. L.V. (Govt.) Polytechnic (2017 - 2020)</li>
+                            <li><span>School</span><br>Shree Siddharameshwara High School (2016 - 2017)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="script.js"></script>
