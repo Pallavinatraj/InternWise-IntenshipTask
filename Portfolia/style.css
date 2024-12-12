@@ -154,3 +154,52 @@ nav ul li a:hover::after {
 .text-content.active-tab {
     display: block;
 }
+
+/* --------logo----------------- */
+.box {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    padding: auto;
+}
+
+.logoBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 50px;
+    grid-auto-flow: row dense;
+}
+
+.logoItem {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.logoItem:hover {
+    transform: scale(1.05);
+    background: #ff004f;
+}
+
+.logoItem img {
+    width: 50px;
+}
+
+.logoItem h1 {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+#box>h1 {
+    font-size: 80px;
+}
+
+box {
+    width: 80%;
+}
