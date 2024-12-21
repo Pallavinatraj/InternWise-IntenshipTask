@@ -1,4 +1,4 @@
-var tablinks = document.getElementsByClassName("tab-link");
+ var tablinks = document.getElementsByClassName("tab-link");
 var tabcontents = document.getElementsByClassName("text-content");
 
 function opentab(event, tabname) {
